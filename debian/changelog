@@ -1,0 +1,8 @@
+python-zipp (0.5.2-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #932330)
+    - Python 2 version is required for python-importlib-metadata which
+      is required for new version of pytest and we can't remove Python 2
+      version of pytest yet.
+
+ -- Ondřej Nový <onovy@debian.org>  Wed, 17 Jul 2019 20:25:02 +0200

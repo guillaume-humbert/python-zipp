@@ -1,0 +1,8 @@
+#!/usr/bin/make -f
+
+export PYBUILD_NAME=zipp
+# There is no pypy-unittest2, so build pypy without testing
+export PYBUILD_DISABLE_pypy=test
+
+%:
+	dh $@ --with pypy,python2,python3 --buildsystem=pybuild
