@@ -23,8 +23,8 @@ Build-Depends:
  python3-setuptools,
  python3-setuptools-scm,
 Standards-Version: 4.4.0
-Vcs-Browser: https://salsa.debian.org/python-team/modules/zipp
-Vcs-Git: https://salsa.debian.org/python-team/modules/zipp.git
+Vcs-Browser: https://salsa.debian.org/python-team/modules/python-zipp
+Vcs-Git: https://salsa.debian.org/python-team/modules/python-zipp.git
 Homepage: https://github.com/jaraco/zipp
 Testsuite: autopkgtest-pkg-python
 
