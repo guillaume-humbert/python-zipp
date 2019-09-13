@@ -1,3 +1,9 @@
+python-zipp (0.5.2-3) UNRELEASED; urgency=medium
+
+  * d/gbp.conf: Add.
+
+ -- Ondřej Nový <onovy@debian.org>  Fri, 13 Sep 2019 13:19:28 +0200
+
 python-zipp (0.5.2-2) unstable; urgency=medium
 
   * d/control: Fix wrong Vcs-*.
