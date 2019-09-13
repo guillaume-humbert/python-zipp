@@ -1,10 +1,10 @@
-python-zipp (0.6.0-1) UNRELEASED; urgency=medium
+python-zipp (0.6.0-1) unstable; urgency=medium
 
   * New upstream release.
   * d/gbp.conf: Add.
   * Add {pypy,python,python3}-more-itertools to B-D.
 
- -- Ondřej Nový <onovy@debian.org>  Fri, 13 Sep 2019 13:19:28 +0200
+ -- Ondřej Nový <onovy@debian.org>  Fri, 13 Sep 2019 13:24:32 +0200
 
 python-zipp (0.5.2-2) unstable; urgency=medium
 
