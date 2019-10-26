@@ -5,14 +5,8 @@ Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.
 Uploaders:
  Ondřej Nový <onovy@debian.org>,
 Build-Depends:
- debhelper-compat (= 12),
+ debhelper (>= 10~),
  dh-python,
- pypy,
- pypy-contextlib2,
- pypy-more-itertools,
- pypy-pathlib2,
- pypy-setuptools,
- pypy-setuptools-scm,
  python-all,
  python-contextlib2,
  python-more-itertools,
@@ -25,22 +19,13 @@ Build-Depends:
  python3-more-itertools,
  python3-setuptools,
  python3-setuptools-scm,
-Standards-Version: 4.4.1
+Standards-Version: 4.1.4
 Vcs-Browser: https://salsa.debian.org/python-team/modules/python-zipp
 Vcs-Git: https://salsa.debian.org/python-team/modules/python-zipp.git
 Homepage: https://github.com/jaraco/zipp
 Testsuite: autopkgtest-pkg-python
-
-Package: pypy-zipp
-Architecture: all
-Depends:
- ${misc:Depends},
- ${pypy:Depends},
-Description: pathlib-compatible Zipfile object wrapper - PyPy
- A backport of the Path object to older versions of Python.
- It's pathlib-compatible interface for zip files using zipfile object inside.
- .
- This package contains PyPy module.
+X-Python3-Version: >= 3.6
+X-Python-Version: >= 2.7
 
 Package: python-zipp
 Architecture: all
